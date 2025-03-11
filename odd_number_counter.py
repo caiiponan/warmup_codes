@@ -8,3 +8,4 @@ seventh_num = int(input("Seventh number: "))
 eighth_num = int(input("Eight number: "))
 ninth_num = int(input("Ninth number: "))
 tenth_num = int(input("Tenth number: "))
+count = 0
