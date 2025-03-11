@@ -10,3 +10,6 @@ ninth_num = int(input("Ninth number: "))
 tenth_num = int(input("Tenth number: "))
 count = 0
 list = [first_num, second_num, third_num, fourth_num, fifth_num, sixth_num, seventh_num, eighth_num, ninth_num, tenth_num]
+for i in list:
+    while i % 2 != 0:
+        count += 1
