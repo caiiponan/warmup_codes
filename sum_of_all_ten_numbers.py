@@ -8,3 +8,4 @@ seventh_num = int(input("Seventh number: "))
 eighth_num = int(input("Eight number: "))
 ninth_num = int(input("Ninth number: "))
 tenth_num = int(input("Tenth number: "))
+sum_of_all_ten_numbers = first_num + second_num + third_num + fourth_num + fifth_num + sixth_num + seventh_num + eighth_num + ninth_num + tenth_num
