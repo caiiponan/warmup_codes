@@ -13,3 +13,4 @@ list = [first_num, second_num, third_num, fourth_num, fifth_num, sixth_num, seve
 for i in list:
     while i % 2 != 0:
         count += 1
+        break
