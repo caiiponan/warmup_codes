@@ -14,3 +14,4 @@ for i in list:
     while i % 2 != 0:
         count += 1
         break
+print(f"The number of odd numbers in the given are: {count}.")
