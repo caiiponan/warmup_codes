@@ -9,4 +9,5 @@ def ask():
             my_list.sort()
             print(my_list)
             ask()
-        
+        else:
+            ask()
