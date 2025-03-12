@@ -10,3 +10,6 @@ ninth = int(input("Ninth number: "))
 tenth = int(input("Tenth number: "))
 my_list = [first, sec, third, fourth, fifth, sixth, seventh, eighth, ninth, tenth]
 new_list = []
+
+for i in my_list:
+    if i not in my_list:
