@@ -7,3 +7,6 @@ def ask():
         average = sum(my_list)/len(my_list)
         print(average)
         ask()
+    else:
+        exit()
+ask() 
