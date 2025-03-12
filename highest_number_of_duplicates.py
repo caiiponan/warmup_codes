@@ -10,3 +10,4 @@ def ask():
         else:
             count_dict[num_input] = 1
         max_duplicates = max(count_dict.values())
+        most_duplicated_num = [num for num, count in count_dict.items() if count == max_duplicates]
