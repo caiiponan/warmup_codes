@@ -8,3 +8,12 @@ seventh = int(input("Seventh number: "))
 eighth = int(input("Eighth number: "))
 ninth = int(input("Ninth number: "))
 tenth = int(input("Tenth number: "))
+
+my_list = [first, sec, third, fourth, fifth, sixth, seventh, eighth, ninth, tenth]
+
+count_dict = {}
+for num in my_list:
+    if num in count_dict:
+        count_dict[num] += 1
+    else:
+        count_dict[num] = 1
