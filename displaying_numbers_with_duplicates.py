@@ -12,3 +12,8 @@ tenth = int(input("Tenth number: "))
 my_list = [first, sec, third, fourth, fifth, sixth, seventh, eighth, ninth, tenth]
 
 count_dict = {}
+for i in my_list:
+    if i in my_list:
+        count_dict[i] += 1
+    else:
+        count_dict[i] = 1
