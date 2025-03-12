@@ -10,3 +10,5 @@ ninth = int(input("Ninth number: "))
 tenth = int(input("Tenth number: "))
 list = [first, sec, third, fourth, fifth , sixth, seventh, eighth, ninth, tenth]
 count = 0
+for i in list:
+    while i % 2 == 0:
