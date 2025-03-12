@@ -7,4 +7,8 @@ def ask():
         if num_input not in my_list:
             my_list.append(num_input)
             my_list.sort(reverse=True)
-            
+            print(my_list)
+            ask()
+        else:
+            ask()
+    
