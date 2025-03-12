@@ -1,6 +1,6 @@
 my_list = []
 
 def ask():
-    num_input = int(input("Enter a number: "))
-    if type(num_input) == int:
-        
+    num_input = (input("Enter a number: "))
+    if num_input.isdigit() == True:
+        num_input = int(num_input)
