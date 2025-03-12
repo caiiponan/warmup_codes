@@ -13,3 +13,4 @@ new_list = []
 
 for i in my_list:
     if i not in my_list:
+        new_list.append(i)
