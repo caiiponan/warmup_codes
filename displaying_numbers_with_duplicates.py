@@ -13,7 +13,8 @@ my_list = [first, sec, third, fourth, fifth, sixth, seventh, eighth, ninth, tent
 
 count_dict = {}
 for i in my_list:
-    if i in my_list:
+    if i in count_dict:
         count_dict[i] += 1
     else:
         count_dict[i] = 1
+new_list = [i for i in my_list if count_dict[i] > 1]
