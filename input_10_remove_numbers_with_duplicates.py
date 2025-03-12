@@ -19,3 +19,5 @@ for num in my_list:
         count_dict[num] = 1
 
 new_list = [num for num in my_list if count_dict[num] == 1]
+
+print(new_list)
