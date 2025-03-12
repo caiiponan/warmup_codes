@@ -5,3 +5,4 @@ def ask():
     if num_input.isdigit == True:
         if num_input not in my_list:
             my_list.append(num_input)
+            print(min(my_list))
