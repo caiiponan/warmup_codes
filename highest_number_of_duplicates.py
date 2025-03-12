@@ -13,3 +13,7 @@ def ask():
         most_duplicated_num = [num for num, count in count_dict.items() if count == max_duplicates]
         print(f"The number(s) with the most duplicates: {most_duplicated_num} with {max_duplicates} duplicates")
         ask()
+    else:
+        exit()
+
+ask()
