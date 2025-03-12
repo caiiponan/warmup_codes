@@ -5,4 +5,5 @@ def ask():
         num_input = int(num_input)
         my_list.append(num_input)
         average = sum(my_list)/len(my_list)
-        
+        print(average)
+        ask()
