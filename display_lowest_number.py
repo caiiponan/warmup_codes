@@ -8,3 +8,4 @@ def ask():
             print(min(my_list))
     else:
         exit
+ask()
