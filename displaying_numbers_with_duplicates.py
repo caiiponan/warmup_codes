@@ -18,3 +18,4 @@ for i in my_list:
     else:
         count_dict[i] = 1
 new_list = [i for i in my_list if count_dict[i] > 1]
+print(new_list)
