@@ -1,4 +1,4 @@
-irst = int(input("First number: "))
+first = int(input("First number: "))
 sec = int(input("Second number: "))
 third = int(input("Third number: "))
 fourth = int(input("Fourth number: "))
