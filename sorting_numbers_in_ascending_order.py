@@ -6,3 +6,7 @@ def ask():
         num_input = int(num_input)
         if num_input not in my_list:
             my_list.append(num_input)
+            my_list.sort()
+            print(my_list)
+            ask()
+        
