@@ -11,4 +11,6 @@ def ask():
             ask()
         else:
             ask()
-    
+    else:
+        exit()
+ask()
