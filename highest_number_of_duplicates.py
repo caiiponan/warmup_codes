@@ -9,4 +9,4 @@ def ask():
             count_dict[num_input] += 1
         else:
             count_dict[num_input] = 1
-            
+        max_duplicates = max(count_dict.values())
