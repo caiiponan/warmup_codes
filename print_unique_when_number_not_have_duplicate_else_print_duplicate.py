@@ -11,3 +11,5 @@ def ask():
             print(f"{num_input} - DUPLICATE")
             my_list.append(num_input)
             ask()
+    else:
+        exit
