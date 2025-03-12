@@ -8,3 +8,5 @@ seventh = int(input("Seventh number: "))
 eighth = int(input("Eighth number: "))
 ninth = int(input("Ninth number: "))
 tenth = int(input("Tenth number: "))
+
+my_list = [first, sec, third, fourth, fifth, sixth, seventh, eighth, ninth, tenth]
